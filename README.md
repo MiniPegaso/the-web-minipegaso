@@ -68,3 +68,9 @@ César Velasquez
 Universidad Galileo  
 Ing. Alejandro Córdova  
 2026
+
+## Historial de cambios
+
+- Se agregó contenido sobre DNS.
+- Se agregó contenido sobre Direcciones IP.
+- Se agregó contenido sobre HTTP y HTTPS.
