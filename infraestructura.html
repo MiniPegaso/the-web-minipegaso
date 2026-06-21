@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto The Web - explicación de infraestructura, DNS, direcciones IP y viaje de una solicitud web.">
+    <meta name="author" content="César Velasquez">
+    <title>The Web | Infraestructura</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="brand">The Web</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="infraestructura.html" class="active">Infraestructura</a></li>
+                <li><a href="protocolos.html">Protocolos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero blue-hero">
+            <p class="eyebrow">Página 2</p>
+            <h1>Infraestructura: el viaje de una solicitud</h1>
+            <p>Cuando escribimos una dirección web, no aparece por magia. El navegador se apoya en DNS, direcciones IP, redes y servidores.</p>
+        </section>
+
+        <section class="featured-section light-blue">
+            <div class="section-copy">
+                <h2>Primero aparece el DNS</h2>
+                <p>El DNS es como una agenda de contactos de Internet: usamos un nombre fácil y él ayuda a encontrar la dirección real del servidor.</p>
+            </div>
+
+            <div class="info-grid two-columns">
+                <article class="info-card">
+                    <h3>Nombre de dominio</h3>
+                    <p>Los humanos recordamos nombres como <strong>github.com</strong> o <strong>google.com</strong>. Es más fácil que memorizar una dirección numérica.</p>
+                </article>
+
+                <article class="info-card">
+                    <h3>Dirección IP</h3>
+                    <p>Las computadoras ubican servidores por medio de direcciones IP. Una IP identifica un equipo o servidor dentro de una red.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="featured-section light-purple">
+            <div class="section-copy">
+                <h2>Pasos de una solicitud web</h2>
+                <p>Este recorrido está simplificado, pero ayuda a imaginar lo que ocurre cuando entramos a un sitio como GitHub o Google.</p>
+            </div>
+
+            <div class="process-line vertical-process">
+                <div class="process-step">
+                    <span class="step-number">1</span>
+                    <h3>Escribimos una URL</h3>
+                    <p>Por ejemplo: <code>https://github.com</code></p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">2</span>
+                    <h3>El navegador consulta el DNS</h3>
+                    <p>El DNS traduce el dominio a una dirección IP para saber dónde está el servidor.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">3</span>
+                    <h3>Se localiza el servidor</h3>
+                    <p>Con la IP encontrada, el navegador ya sabe a qué servidor enviar la solicitud.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">4</span>
+                    <h3>El servidor responde</h3>
+                    <p>El servidor envía los archivos necesarios para construir la página web.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="curiosity-section">
+            <div class="curiosity-card coral-note">
+                <p class="eyebrow-dark">Sabías que...</p>
+                <h2>Una IP no siempre es fácil de recordar</h2>
+                <p>Por eso usamos dominios como <strong>github.com</strong>. Sería muy incómodo tener que memorizar números para cada página que visitamos.</p>
+            </div>
+        </section>
+
+        <section class="summary-section">
+            <h2>Ejemplo sencillo</h2>
+            <div class="summary-card code-style">
+                <p>Usuario escribe: <strong>github.com</strong></p>
+                <p>DNS busca la IP del servidor.</p>
+                <p>El navegador envía la solicitud.</p>
+                <p>El servidor responde con la página.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Proyecto The Web · Ing. Alejandro Córdova · Universidad Galileo · 2026</p>
+        <p>Desarrollado por César Velasquez</p>
+    </footer>
+</body>
+</html>

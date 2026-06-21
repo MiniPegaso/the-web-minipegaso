@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto The Web - explicación de Internet, la Web y el modelo cliente-servidor.">
+    <meta name="author" content="César Velasquez">
+    <title>The Web | Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="brand">The Web</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="infraestructura.html">Infraestructura</a></li>
+                <li><a href="protocolos.html">Protocolos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-main">
+            <div class="hero-content">
+                <p class="eyebrow">Control de Versiones Git · Universidad Galileo · 2026</p>
+                <h1>Comprendiendo cómo funciona la Web</h1>
+                <p>Un sitio informativo para entender, sin tanto enredo, qué pasa detrás de una página web cuando la abrimos en el navegador.</p>
+                <div class="button-group">
+                    <a href="infraestructura.html" class="btn btn-primary">Ver infraestructura</a>
+                    <a href="#internet-web" class="btn btn-outline-light">Leer conceptos</a>
+                </div>
+            </div>
+            <div class="hero-diagram" aria-label="Diagrama de conexión web">
+                <span>Usuario</span>
+                <span class="arrow">→</span>
+                <span>Navegador</span>
+                <span class="arrow">→</span>
+                <span>Internet</span>
+                <span class="arrow">→</span>
+                <span>Servidor</span>
+            </div>
+        </section>
+
+        <section class="featured-section light-blue" id="internet-web">
+            <div class="section-copy">
+                <h2>Internet no es exactamente lo mismo que la Web</h2>
+                <p>Yo también pensaba que eran lo mismo, pero investigando se entiende que una cosa es la red y otra es el servicio que usamos para visitar páginas.</p>
+            </div>
+
+            <div class="info-grid two-columns">
+                <article class="info-card">
+                    <h3>Internet</h3>
+                    <p>Es la red mundial que conecta computadoras, celulares, servidores, routers y muchos otros dispositivos. Funciona como la infraestructura por donde viaja la información.</p>
+                    <p class="example">Ejemplo: cables, redes Wi-Fi, routers y servidores conectados.</p>
+                </article>
+
+                <article class="info-card">
+                    <h3>World Wide Web</h3>
+                    <p>Es un servicio que usamos sobre Internet para ver páginas web desde un navegador. La Web utiliza direcciones, enlaces, HTML, CSS y protocolos como HTTP o HTTPS.</p>
+                    <p class="example">Ejemplo: abrir Google, GitHub, YouTube o una página de noticias.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="featured-section light-purple">
+            <div class="section-copy">
+                <h2>Modelo Cliente-Servidor</h2>
+                <p>La Web funciona porque existe una comunicación entre quien solicita información y quien la entrega.</p>
+            </div>
+
+            <div class="process-line">
+                <div class="process-step">
+                    <span class="step-number">1</span>
+                    <h3>Cliente</h3>
+                    <p>Es el navegador o dispositivo que pide una página web.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">2</span>
+                    <h3>Infraestructura</h3>
+                    <p>El cliente envía una petición al servidor usando Internet.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">3</span>
+                    <h3>Servidor</h3>
+                    <p>El servidor procesa la solicitud y responde con archivos.</p>
+                </div>
+                <div class="process-step">
+                    <span class="step-number">4</span>
+                    <h3>Respuesta</h3>
+                    <p>El navegador recibe HTML, CSS, JavaScript e imágenes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="curiosity-section">
+            <div class="curiosity-card">
+                <p class="eyebrow-dark">Dato curioso</p>
+                <h2>La Web es solo una parte de Internet</h2>
+                <p>Internet también permite usar correo electrónico, juegos en línea, videollamadas y muchos otros servicios. La Web es la parte que normalmente usamos desde Chrome, Safari, Edge o Firefox.</p>
+            </div>
+        </section>
+
+        <section class="summary-section">
+            <h2>Resumen rápido</h2>
+            <div class="summary-card">
+                <p><strong>Internet</strong> es la infraestructura. <strong>La Web</strong> es uno de los servicios que usamos dentro de esa infraestructura. El <strong>cliente</strong> solicita información y el <strong>servidor</strong> responde.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Proyecto The Web · Ing. Alejandro Córdova · Universidad Galileo · 2026</p>
+        <p>Desarrollado por César Velasquez</p>
+    </footer>
+</body>
+</html>
